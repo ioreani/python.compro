@@ -1,0 +1,6 @@
+print(" *** Find Total lines ***")
+file_name = input("Enter file name : ")
+f = open(file_name)
+lines = f.readlines()
+f.close()
+print(f"Total lines : {len(lines)}")
