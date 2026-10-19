@@ -1,0 +1,7 @@
+print(" *** Binary Hexadecimal ***")
+number = input("Enter your number : ")
+num = int(number)
+print(f"Hexadecimal = {num:x}")
+print(f"Hexadecimal = {num:X}")
+print(f"Binary = {num:b}")
+print(f"Binary right 8-digit = {num//16%16:04b} {num//1%16:04b}")
